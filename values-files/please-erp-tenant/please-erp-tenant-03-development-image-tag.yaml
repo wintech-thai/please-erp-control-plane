@@ -2,4 +2,4 @@
 tenant:
   pods:
     image:
-      tag: "v0.0.1"
+      tag: "develop-00060ba"
