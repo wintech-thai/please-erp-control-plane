@@ -1,0 +1,11 @@
+---
+envAlias: development
+envAliasJob: Development
+envGroup: dev
+
+domainOnixErpAPI: api-dev.please-erp.local
+pleaseErpAdminDomain: admin-dev.please-erp.local
+pleaseErpTenantDomain: tenant-dev.please-erp.local
+pleaseErpWebDomain: web-dev.please-erp.local
+
+pgDiskSize: 30Gi
