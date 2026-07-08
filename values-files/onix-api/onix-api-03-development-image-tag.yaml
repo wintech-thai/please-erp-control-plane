@@ -1,0 +1,5 @@
+
+onix-api:
+  pods:
+    image:
+      tag: "main-8dfab8a"

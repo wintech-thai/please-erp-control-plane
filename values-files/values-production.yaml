@@ -1,0 +1,12 @@
+---
+envAlias: production
+envAliasJob: Production
+
+envGroup: prod
+
+domainOnixErpAPI: api-prod.please-erp.local
+pleaseErpAdminDomain: admin-prod.please-erp.local
+pleaseErpTenantDomain: tenant-prod.please-erp.local
+pleaseErpWebDomain: web-prod.please-erp.local
+
+pgDiskSize: 100Gi
