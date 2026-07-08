@@ -60,7 +60,7 @@ spec:
           value: 'true'
 
         - name: SEND_TO_HTTP
-          value: 'true'
+          value: 'false'
 
         command:
           - ruby
