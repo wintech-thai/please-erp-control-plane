@@ -15,7 +15,7 @@ spec:
       labels:
         app.kubernetes.io/name: log-dispatcher
     spec:
-      serviceAccountName: please-payment-sa
+      serviceAccountName: please-erp-sa
       containers:
       # GCS file download
       - env:
