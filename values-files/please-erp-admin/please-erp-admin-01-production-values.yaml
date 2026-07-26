@@ -28,3 +28,6 @@ admin:
 
       - name: NEXT_PUBLIC_PROVIDER_URL
         value: 'https://dev-hubs.com'
+
+      - name: NEXT_PUBLIC_WEB_ROLE
+        value: 'ADMIN'

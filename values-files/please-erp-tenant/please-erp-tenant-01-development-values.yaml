@@ -28,3 +28,6 @@ tenant:
 
       - name: NEXT_PUBLIC_PROVIDER_URL
         value: 'https://web-dev.dev-hubs.com'
+
+      - name: NEXT_PUBLIC_WEB_ROLE
+        value: 'TENANT'
