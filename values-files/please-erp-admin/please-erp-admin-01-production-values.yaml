@@ -31,3 +31,6 @@ admin:
 
       - name: NEXT_PUBLIC_WEB_ROLE
         value: 'ADMIN'
+
+      - name: WEB_ROLE
+        value: 'ADMIN'
