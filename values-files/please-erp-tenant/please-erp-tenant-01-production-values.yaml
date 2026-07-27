@@ -31,3 +31,6 @@ tenant:
 
       - name: NEXT_PUBLIC_WEB_ROLE
         value: 'TENANT'
+
+      - name: WEB_ROLE
+        value: 'TENANT'
