@@ -3,7 +3,7 @@ kind: CronJob
 metadata:
   name: db-sync
 spec:
-  # kubectl create job --from=cronjob/db-sync db-sync-001 -n please-payment-development
+  # kubectl create job --from=cronjob/db-sync db-sync-001 -n please-erp-development
   suspend: false #ย้ายมาใช้ postgres-onix-v2 แล้วอันนี้เลยปิดไปก่อน
   schedule: "*/10 * * * *"
   jobTemplate:
@@ -11,7 +11,7 @@ spec:
       ttlSecondsAfterFinished: 3600
       template:
         spec:
-          serviceAccountName: please-payment-sa
+          serviceAccountName: please-erp-sa
           containers:
           - name: cron-script
             image: "asia-southeast1-docker.pkg.dev/its-artifact-commons/onix-v2/onix-v2-jobs:{{ .Values.onixJobs.imageTag }}"
