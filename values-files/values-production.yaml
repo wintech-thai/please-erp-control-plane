@@ -10,3 +10,4 @@ pleaseErpTenantDomain: tenant-prod.please-erp.local
 pleaseErpWebDomain: web-prod.please-erp.local
 
 pgDiskSize: 100Gi
+pgHost: postgresql-onix
