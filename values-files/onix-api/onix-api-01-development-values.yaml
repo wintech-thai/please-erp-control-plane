@@ -31,7 +31,7 @@ onix-api:
         value: "true"
 
       - name: PostgreSQL__Host
-        value: "postgresql-onix"
+        value: "postgresql-onix-v2"
 
       - name: PostgreSQL__Database
         value: "onix"
