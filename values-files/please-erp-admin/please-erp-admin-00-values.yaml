@@ -28,7 +28,7 @@ admin:
     #  periodSeconds: 10
 
     image:
-      name: asia-southeast1-docker.pkg.dev/its-artifact-commons/please-erp/please-erp-console
+      name: pjamenaja/please-erp-console
 
     #volumeMounts:
     #  - name: secrets
