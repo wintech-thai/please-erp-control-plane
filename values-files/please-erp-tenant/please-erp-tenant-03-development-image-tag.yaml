@@ -2,4 +2,4 @@
 tenant:
   pods:
     image:
-      tag: "develop-c70f467"
+      tag: "develop-31c1c75"
