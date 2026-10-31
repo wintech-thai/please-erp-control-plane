@@ -2,4 +2,4 @@
 tenant:
   pods:
     image:
-      tag: "main-9e5a9f4"
+      tag: "develop-017dfa1"
